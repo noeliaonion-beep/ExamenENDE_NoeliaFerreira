@@ -1,5 +1,17 @@
 package examen;
 
-public class Libro extends Libreria {
+public class Libro {
+	private String titulo;
+	private String autor;
+	private String isbn;
+	private boolean prestado;
+	public Libro(String titulo, String autor, String isbn, boolean prestado) {
+	
+		this.titulo = titulo;
+		this.autor = autor;
+		this.isbn = isbn;
+		this.prestado = prestado;
+	}
+	
 
 }
